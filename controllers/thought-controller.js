@@ -57,9 +57,6 @@ const thoughtController = {
     }
 
     res.json(dbThoughtData);
-
-    console.log(err);
-    res.status(500).json(err);
   },
 
   async deleteThought(req, res) {
